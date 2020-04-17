@@ -1,0 +1,52 @@
+*
+{
+	font-family: 'Sen', sans-serif;
+}
+.container1 h1
+{
+	text-align: center;
+}
+#center-1
+{
+	margin-left: 35%;
+}
+
+button
+{
+	border: none;
+	border-radius: 5px;
+	background-color: orange;
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	width: 30%;
+	margin-bottom: 20px;
+}
+label
+{
+	font-size: 25px;
+}
+ label input[type="text"]:nth-of-type(1)
+{
+	width: 30%;
+}
+button
+{
+	width: 47%;
+	font-size: 25px;
+}
+#result
+{
+	margin-left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+
+button{
+	width: 120%;
+	margin-left: -20%;
+}
+#center-1 {
+	margin-left: -5px;
+	margin-left: 100px;
+}
+}
