@@ -11,29 +11,29 @@ function submitButton(){
 	result = finalAverage / total;
 	if (result == 100)
 	{
-			return document.getElementById('result').innerHTML = "Your final average is: " + result + " & And your letter grade is A+"; 
+			return document.getElementById('result').innerHTML = "Your final average is: " + result + " & your letter grade is A+"; 
 	}
 	else if (result >= 90)
 	{
-			return document.getElementById('result').innerHTML = "Your final average is: " + result + " & And your letter grade is A"; 
+			return document.getElementById('result').innerHTML = "Your final average is: " + result + " & your letter grade is A"; 
 	}
 	else if (result >= 80)
 	{	
-			return document.getElementById('result').innerHTML = "Your final average is: " + result + " & And your letter grade is B"; 
+			return document.getElementById('result').innerHTML = "Your final average is: " + result + " & your letter grade is B"; 
 	}
 	else if (result >= 70)
 	{
-		return document.getElementById('result').innerHTML = "Your final average is: " + result + " & And your letter grade is C";
+		return document.getElementById('result').innerHTML = "Your final average is: " + result + " & your letter grade is C";
 	}
 
 		else if (result >= 60)
 	{
-		return document.getElementById('result').innerHTML = "Your final average is: " + result + " & And your letter grade is D";
+		return document.getElementById('result').innerHTML = "Your final average is: " + result + " & your letter grade is D";
 	}
 
 		else  (result < 59)
 	{
-		return document.getElementById('result').innerHTML = "Your final average is: " + result + " & And your letter grade is F";
+		return document.getElementById('result').innerHTML = "Your final average is: " + result + " & your letter grade is F";
 	}
 	
 }
